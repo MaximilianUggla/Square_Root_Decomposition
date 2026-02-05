@@ -53,8 +53,5 @@ public class RangeSumList {
         }
         return sum;
     }
-
-    public void add(Integer left, Integer right) {
-    }
 }
 
