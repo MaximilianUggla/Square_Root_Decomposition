@@ -3,9 +3,9 @@ import java.util.List;
 
 public class RangeSumList {
     List<Integer> blocks = new ArrayList<>();
-    List<Integer> elements = new ArrayList<>();
-    Integer N;
-    Integer sqrtN;
+    List<Integer> elements;
+    int N;
+    int sqrtN;
 
     public RangeSumList(List<Integer> elements) {
         this.elements = elements;
